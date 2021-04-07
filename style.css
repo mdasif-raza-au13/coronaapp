@@ -1,0 +1,30 @@
+*{
+    cursor: pointer;
+}
+.container{
+    border: 2px solid rgb(230, 221, 221);
+    width: 60%;
+    margin-top: 10rem;
+    background-color: rgb(238, 235, 235);
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 2%;
+}
+/* .flexy{
+    display: flex;
+    justify-content: center;
+} */
+button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: .5rem;
+    font-size: large;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.container:hover{
+    background-color: rgb(93, 93, 216);
+    color: white;
+    border-radius: 10%;
+}
